@@ -2,16 +2,16 @@
 
 ## 1. Entidades
 
-    - **Personagem**
-    - **Monstro**
-    - **Boss**
-    - **NPC**
-    - **Item** 
-        - **Consumível**
-        - **Utilizável**
-    - **Recompensa**
-    - **Missão**
-    - **Mundo**
-    - **Local**
-    - **Mapa**
-    - **Inventário**
+- **Personagem**
+- **Monstro**
+- **Boss**
+- **NPC**
+- **Item** 
+  - **Consumível**
+  - **Utilizável**
+- **Recompensa**
+- **Missão**
+- **Mundo**
+- **Local**
+- **Mapa**
+- **Inventário**
