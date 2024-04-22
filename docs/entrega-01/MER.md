@@ -1,12 +1,16 @@
-# Modelo Entidade-Relacionamento 
+# Modelo Entidade-Relacionamento
 
 ## 1. Entidades
 
 - **Personagem**
+  - **NPC**
+  - **Player**
+- **Habilidade**
 - **Monstro**
-- **Boss**
+  - **Comum**
+  - **Boss**
 - **NPC**
-- **Item** 
+- **Item**
   - **Consumível**
   - **Utilizável**
 - **Recompensa**
@@ -15,3 +19,95 @@
 - **Local**
 - **Mapa**
 - **Inventário**
+- **Viagem**
+
+## 2. Atributos
+
+- **Personagem**: </ins>idPersonagem</ins>, nome;
+  - **NPC**: historia, dialogo;
+  - **Player**: classe, level, vida, mana, poder, defesa;
+- **Habilidade**: </ins>idHabilidade</ins>, danoHabilidade, gastoMana, tempoRecarga;
+- **Monstro**: </ins>idMonstro</ins>, nomeMonstro, vidaMonstro, poderMonstro, expLiberado;
+  - **Comum**: localEncontrado;
+  - **Boss**: defesaMonstro, itemDropado;
+- **Item**: </ins>idItem</ins>, nomeItem, descriçãoItem;
+  - **Consumível**: qtdVida, qtdMana, qtdPoder;
+  - **Utilizável**: levelMínimo, poderItem, defesaItem, vidaAdicional;
+- **Recompensa**: </ins>idRecompensa</ins>, expDropado, itemDropado;
+- **Missão**: </ins>idMissao</ins>, descricaoMissão, expMissao;
+- **Mundo**: </ins>idMundo</ins>, nomeMundo, descricaoMundo;
+- **Local**: </ins>idLocal</ins>, nomeLocal, tamanhoLocal, descricaoLocal;
+- **Mapa**: </ins>idMapa</ins>, nomeMapa, locaisMapa;
+- **Inventário**: </ins>idInventario</ins>, qtdItens;
+- **Viagem**: </ins>idInventario</ins>, localInicial, localFinal;
+
+## 3. Relacionamentos
+
+**Player _cumpre_ uma Missao**
+
+- Um player cumpre nenhuma ou várias missões (0,N)
+- A missão é cumprida por um ou vários players (1,N)
+
+**Player _abre_ Inventário**
+
+- O player abre um inventário (1,1)
+- O inventário é aberto por um player (1,1)
+
+**Player _possui_ item**
+
+- O player possui nenhum ou vários itens (0,N)
+- O item é de apenas um jogador (1,1)
+
+**Player _recebe_ Recompensa**
+
+- O player recebe nenhuma ou várias recompensas (0,N)
+- O inventário é recebida por nenhum ou um player (0,1)
+
+**Player _abre_ Mapa**
+
+- O player abre um mapa (1,1)
+- Um mapa é aberto por um player (1,1)
+
+**Player _ataca_ Monstro**
+
+- O player ataca um ou vários monstros (1,N)
+- O monstro é atacado por um ou vários players (1,N)
+
+**Player _está_ em um Local**
+
+- O player está em um local (1,1)
+- O local pode ter nenhum ou vários players (0,N)
+
+**Player _bebe_ um Consumível**
+
+- O player bebe nenhum ou vários consumíveis (0,1)
+- O consumível é bebido por um player (1,1)
+
+**Player _equipa_ um Utilizável**
+
+- O player equipa um ou vários utilizáveis (1,N)
+- O utilizável é equipado por um player (1,1)
+**Player _lança_ uma Habilidade**
+
+- O player lança uma habilidade por vez (1,1)
+- A habilidade é lançada por um player (1,1)
+
+**Player _viaja_ para um Local**
+
+- O player viaja para nenhum ou vários locais (0,N)
+- O local foi destino final de nenhum ou vários players (0,N)
+
+**Mundo _possui_ um Local**
+
+- O mundo possui nenhum ou vários locais (0,N)
+- O local está em um mundo (1,1)
+
+**Monstro _dropa_ uma Recompensa**
+
+- O monstro dropa uma recompensa (1,1)
+- A recompensa é dropada por um ou vários mosntros (1,N)
+
+**Local _possui_ um Monstro**
+
+- O local possui nenhum ou vários monstros (0,N)
+- O monstro está em um local (1,1)
