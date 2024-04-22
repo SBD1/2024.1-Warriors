@@ -81,8 +81,8 @@
 
 **Player _equipa_ um Item**
 
-- O player equipa um ou vários utilizáveis (1,N)
-- O utilizável é equipado por um player (1,1)
+- O player equipa um ou vários itens (1,N)
+- O item é equipado por um player (1,1)
 **Player _lança_ uma Habilidade**
 
 - O player lança uma habilidade por vez (1,1)
