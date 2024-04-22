@@ -8,7 +8,6 @@
 - **Monstro**
   - **Comum**
   - **Boss**
-- **NPC**
 - **Item**
 - **Recompensa**
 - **Missão**
@@ -79,7 +78,7 @@
 - 
 **Player _viaja_ para um Local**
 
-- O player viaja para nenhum ou vários locais (0,N)
+- O player viaja para um ou vários locais (1,N)
 - O local foi destino final de nenhum ou vários players (0,N)
 
 **Mundo _possui_ um Local**
