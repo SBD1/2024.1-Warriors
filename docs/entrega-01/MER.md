@@ -5,7 +5,6 @@
 - **Personagem**
   - **NPC**
   - **Player**
-- **Habilidade**
 - **Monstro**
   - **Comum**
   - **Boss**
@@ -24,7 +23,6 @@
 - **Personagem**: <ins>idPersonagem</ins>, nome;
   - **NPC**: historia, dialogo;
   - **Player**: classe, level, vida, mana, poder, defesa;
-- **Habilidade**: <ins>idHabilidade</ins>, danoHabilidade, gastoMana, tempoRecarga;
 - **Monstro**: <ins>idMonstro</ins>, nomeMonstro, vidaMonstro, poderMonstro, expLiberado;
   - **Comum**: localEncontrado;
   - **Boss**: defesaMonstro, itemDropado;
@@ -54,11 +52,6 @@
 - O player abre um inventário (1,1)
 - O inventário é aberto por um player (1,1)
 
-**Player _possui_ Item**
-
-- O player possui nenhum ou vários itens (0,N)
-- O item é de apenas um jogador (1,1)
-
 **Player _recebe_ Recompensa**
 
 - O player recebe nenhuma ou várias recompensas (0,N)
@@ -83,11 +76,7 @@
 
 - O player equipa um ou vários itens (1,N)
 - O item é equipado por um player (1,1)
-**Player _lança_ uma Habilidade**
-
-- O player lança uma habilidade por vez (1,1)
-- A habilidade é lançada por um player (1,1)
-
+- 
 **Player _viaja_ para um Local**
 
 - O player viaja para nenhum ou vários locais (0,N)
