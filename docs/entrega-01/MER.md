@@ -68,7 +68,7 @@
 
 - O player equipa um ou vários itens (1,N)
 - O item é equipado por um player (1,1)
-- 
+
 **Player _viaja_ para um Local**
 
 - O player viaja para um ou vários locais (1,N)
@@ -88,3 +88,8 @@
 
 - O local possui nenhum ou vários monstros (0,N)
 - O monstro está em um local (1,1)
+
+**Inventário _possui_ Item**
+
+- O inventário possui nenhum ou vários itens (0,N)
+- O item está em um inventário (1,1)
