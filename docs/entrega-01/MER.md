@@ -11,8 +11,6 @@
   - **Boss**
 - **NPC**
 - **Item**
-  - **Consumível**
-  - **Utilizável**
 - **Recompensa**
 - **Missão**
 - **Mundo**
@@ -30,9 +28,7 @@
 - **Monstro**: <ins>idMonstro</ins>, nomeMonstro, vidaMonstro, poderMonstro, expLiberado;
   - **Comum**: localEncontrado;
   - **Boss**: defesaMonstro, itemDropado;
-- **Item**: <ins>idItem</ins>, nomeItem, descriçãoItem;
-  - **Consumível**: qtdVida, qtdMana, qtdPoder;
-  - **Utilizável**: levelMínimo, poderItem, defesaItem, vidaAdicional;
+- **Item**: <ins>idItem</ins>, nomeItem, descriçãoItem, levelMínimo, poderItem, defesaItem, vidaAdicional;
 - **Recompensa**: <ins>idRecompensa</ins>, expDropado, itemDropado;
 - **Missão**: <ins>idMissao</ins>, descricaoMissão, expMissao;
 - **Mundo**: <ins>idMundo</ins>, nomeMundo, descricaoMundo;
@@ -47,6 +43,11 @@
 
 - Um player cumpre nenhuma ou várias missões (0,N)
 - A missão é cumprida por um ou vários players (1,N)
+
+**Player _conversa_ com um NPC**
+
+- O player conversa com um NPC (1,1)
+- O NPC conversa com um player (1,1)
 
 **Player _abre_ Inventário**
 
@@ -78,12 +79,7 @@
 - O player está em um local (1,1)
 - O local pode ter nenhum ou vários players (0,N)
 
-**Player _bebe_ um Consumível**
-
-- O player bebe nenhum ou vários consumíveis (0,1)
-- O consumível é bebido por um player (1,1)
-
-**Player _equipa_ um Utilizável**
+**Player _equipa_ um Item**
 
 - O player equipa um ou vários utilizáveis (1,N)
 - O utilizável é equipado por um player (1,1)
