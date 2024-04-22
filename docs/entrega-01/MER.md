@@ -23,23 +23,23 @@
 
 ## 2. Atributos
 
-- **Personagem**: </ins>idPersonagem</ins>, nome;
+- **Personagem**: <ins>idPersonagem</ins>, nome;
   - **NPC**: historia, dialogo;
   - **Player**: classe, level, vida, mana, poder, defesa;
-- **Habilidade**: </ins>idHabilidade</ins>, danoHabilidade, gastoMana, tempoRecarga;
-- **Monstro**: </ins>idMonstro</ins>, nomeMonstro, vidaMonstro, poderMonstro, expLiberado;
+- **Habilidade**: <ins>idHabilidade</ins>, danoHabilidade, gastoMana, tempoRecarga;
+- **Monstro**: <ins>idMonstro</ins>, nomeMonstro, vidaMonstro, poderMonstro, expLiberado;
   - **Comum**: localEncontrado;
   - **Boss**: defesaMonstro, itemDropado;
-- **Item**: </ins>idItem</ins>, nomeItem, descriçãoItem;
+- **Item**: <ins>idItem</ins>, nomeItem, descriçãoItem;
   - **Consumível**: qtdVida, qtdMana, qtdPoder;
   - **Utilizável**: levelMínimo, poderItem, defesaItem, vidaAdicional;
-- **Recompensa**: </ins>idRecompensa</ins>, expDropado, itemDropado;
-- **Missão**: </ins>idMissao</ins>, descricaoMissão, expMissao;
-- **Mundo**: </ins>idMundo</ins>, nomeMundo, descricaoMundo;
-- **Local**: </ins>idLocal</ins>, nomeLocal, tamanhoLocal, descricaoLocal;
-- **Mapa**: </ins>idMapa</ins>, nomeMapa, locaisMapa;
-- **Inventário**: </ins>idInventario</ins>, qtdItens;
-- **Viagem**: </ins>idInventario</ins>, localInicial, localFinal;
+- **Recompensa**: <ins>idRecompensa</ins>, expDropado, itemDropado;
+- **Missão**: <ins>idMissao</ins>, descricaoMissão, expMissao;
+- **Mundo**: <ins>idMundo</ins>, nomeMundo, descricaoMundo;
+- **Local**: <ins>idLocal</ins>, nomeLocal, tamanhoLocal, descricaoLocal;
+- **Mapa**: <ins>idMapa</ins>, nomeMapa, locaisMapa;
+- **Inventário**: <ins>idInventario</ins>, qtdItens;
+- **Viagem**: <ins>idInventario</ins>, localInicial, localFinal;
 
 ## 3. Relacionamentos
 
@@ -53,7 +53,7 @@
 - O player abre um inventário (1,1)
 - O inventário é aberto por um player (1,1)
 
-**Player _possui_ item**
+**Player _possui_ Item**
 
 - O player possui nenhum ou vários itens (0,N)
 - O item é de apenas um jogador (1,1)
