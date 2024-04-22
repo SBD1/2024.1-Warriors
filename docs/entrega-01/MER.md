@@ -13,7 +13,6 @@
 - **Missão**
 - **Mundo**
 - **Local**
-- **Mapa**
 - **Inventário**
 - **Viagem**
 
@@ -30,7 +29,6 @@
 - **Missão**: <ins>idMissao</ins>, descricaoMissão, expMissao;
 - **Mundo**: <ins>idMundo</ins>, nomeMundo, descricaoMundo;
 - **Local**: <ins>idLocal</ins>, nomeLocal, tamanhoLocal, descricaoLocal;
-- **Mapa**: <ins>idMapa</ins>, nomeMapa, locaisMapa;
 - **Inventário**: <ins>idInventario</ins>, qtdItens;
 - **Viagem**: <ins>idInventario</ins>, localInicial, localFinal;
 
@@ -55,12 +53,7 @@
 
 - O player recebe nenhuma ou várias recompensas (0,N)
 - O inventário é recebida por nenhum ou um player (0,1)
-
-**Player _abre_ Mapa**
-
-- O player abre um mapa (1,1)
-- Um mapa é aberto por um player (1,1)
-
+  
 **Player _ataca_ Monstro**
 
 - O player ataca um ou vários monstros (1,N)
