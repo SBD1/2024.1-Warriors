@@ -14,7 +14,6 @@
 - **Mundo**
 - **Local**
 - **Inventário**
-- **Viagem**
 
 ## 2. Atributos
 
@@ -30,7 +29,6 @@
 - **Mundo**: <ins>idMundo</ins>, nomeMundo, descricaoMundo;
 - **Local**: <ins>idLocal</ins>, nomeLocal, tamanhoLocal, descricaoLocal;
 - **Inventário**: <ins>idInventario</ins>, qtdItens;
-- **Viagem**: <ins>idInventario</ins>, localInicial, localFinal;
 
 ## 3. Relacionamentos
 
