@@ -28,7 +28,7 @@
 - **Monstro**: <ins>idMonstro</ins>, nomeMonstro, vidaMonstro, poderMonstro, expLiberado;
   - **Comum**: localEncontrado;
   - **Boss**: defesaMonstro, itemDropado;
-- **Item**: <ins>idItem</ins>, nomeItem, descriçãoItem, levelMínimo, poderItem, defesaItem, vidaAdicional;
+- **Item**: <ins>idItem</ins>, nomeItem, descricaoItem, levelMinimo, poderItem, defesaItem, vidaAdicional;
 - **Recompensa**: <ins>idRecompensa</ins>, expDropado, itemDropado;
 - **Missão**: <ins>idMissao</ins>, descricaoMissão, expMissao;
 - **Mundo**: <ins>idMundo</ins>, nomeMundo, descricaoMundo;
