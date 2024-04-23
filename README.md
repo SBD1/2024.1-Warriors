@@ -7,4 +7,5 @@ Repositório dedicado ao desenvolvimento do jogo Warriors. Um jogo que se passa 
     - [DER](https://github.com/SBD1/2024.1-Warriors/blob/main/docs/entrega-01/DER.md)
     - [MREL](https://github.com/SBD1/2024.1-Warriors/blob/main/docs/entrega-01/MREL.md)
     - [DD](https://github.com/SBD1/2024.1-Warriors/blob/main/docs/entrega-01/DD.md)
+    - [APRESENTAÇÃO](https://github.com/SBD1/2024.1-Warriors/blob/main/docs/entrega-01/apresenta%C3%A7%C3%A3o.md)
     
