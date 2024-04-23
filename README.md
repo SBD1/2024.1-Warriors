@@ -3,4 +3,8 @@ Repositório dedicado ao desenvolvimento do jogo Warriors. Um jogo que se passa 
 
 ## :pushpin: ENTREGAS
   - Módulo 01:
+    - [MER](https://github.com/SBD1/2024.1-Warriors/blob/main/docs/entrega-01/MER.md)
+    - [DER](https://github.com/SBD1/2024.1-Warriors/blob/main/docs/entrega-01/DER.md)
+    - [MREL](https://github.com/SBD1/2024.1-Warriors/blob/main/docs/entrega-01/MREL.md)
+    - [DD](https://github.com/SBD1/2024.1-Warriors/blob/main/docs/entrega-01/DD.md)
     
